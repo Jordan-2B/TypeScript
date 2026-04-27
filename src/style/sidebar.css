@@ -1,0 +1,13 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 100vh;
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+}

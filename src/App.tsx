@@ -1,18 +1,18 @@
-import './App.css'
+import './style/App.css'
+import Sidebar from './prueba'
 
 function App() {
 
 
-  return (
-    <>
-      <aside >
+  return (<>
+  <div className='container'>
+ <Sidebar />
+ <main className='content'>
+  <h1>Bienvenido a la aplicación</h1>
+ </main>
+  </div>
 
-    </aside>
-    <article >
-
-      </article>
-  
-    </>
+</>
   )
 }
 
