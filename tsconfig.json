@@ -9,7 +9,9 @@
     }
   ],
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": ".", 
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "paths": {
       "@/*": ["./src/*"]
     },

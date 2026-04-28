@@ -1,15 +1,13 @@
-import './style/App.css'
-import Sidebar from './prueba'
+import Sidebar from './components/ui/sidebar';
+
+
 
 function App() {
 
 
   return (<>
-  <div className='container'>
- <Sidebar />
- <main className='content'>
-  <h1>Bienvenido a la aplicación</h1>
- </main>
+  <div >
+    <Sidebar />
   </div>
 
 </>
