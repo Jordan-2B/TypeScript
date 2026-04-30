@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Button } from "./button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import type { Persona } from '../../types/persona';
@@ -9,6 +10,15 @@ interface Props {
 }
 
 export function VisorPdf({ personaSeleccionada, onAnterior, onSiguiente }: Props) {
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") onAnterior();
+      else if (e.key === "ArrowRight") onSiguiente();
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [onAnterior, onSiguiente]);
+
   return (
     <main className="w-3/5 bg-[#111111] rounded-2xl border border-[#2a2a2a] flex flex-col relative overflow-hidden">
       <div className="flex-1">
