@@ -6,7 +6,7 @@
     "correo": "juan.perez@example.com",
     "telefono": "+57 3001234567",
     "ciudad": "Bogotá",
-    "pdfUrl": "https://www.orimi.com/pdf-test.pdf"
+    "pdfUrl": "http://ensenada.tecnm.mx/wp-content/uploads/2020/04/LA-UNAM-TE-OFRECE-200-LIBROS-PARA-DESCARGAR-%C2%A1GRATIS.pdf.pdf"
   },
   {
     "id": 2,
@@ -75,8 +75,8 @@
     "ciudad": "Barranquilla",
     "pdfUrl": "https://www.orimi.com/pdf-test.pdf"
   }, {
-    "id": 10,
-    "nombre": "Laura Martínez",
+    "id": 3,
+    "nombre": "Nier",
     "edad": 30,
     "correo": "laura.martinez@example.com",
     "telefono": "+57 3041122334",
